@@ -1,0 +1,287 @@
+/* general setting for body: hover effect, font */
+a:hover{
+    background-color: yellow;
+}
+
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* menu page */
+/* header section: logo, titles, devider, slogan */
+header{
+    display: flex;
+    margin: auto;
+    text-align: left;
+}
+
+.header-main-content{
+    display: flex;
+}
+
+/* logo */
+.header-thumbnail{
+    width: 500px;
+    margin: 10px;
+
+
+}
+/* logo */
+
+/* titles */
+.header-right{
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+.header-titles{
+    margin-left: 450px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 90px;
+    height: auto;
+    font-weight: bold;
+    color: black;
+    font-style: none;
+    font-size: 30px;
+}
+
+.header-product{
+    padding-left: 35px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.header-cart{
+    margin-left: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+/* titles */
+
+/* slogan */
+.subtitles{
+    letter-spacing: 1px;
+    font-size: 40px; 
+    margin: 100px auto 20px auto;
+}
+/* slogan */
+
+
+/* divider */
+hr.solid{
+    height:5px; width:990px; border-width:0; color:black; background-color: black;
+    
+}
+/* divide */
+
+
+/*products section: six products, three on top row, three on bottom row*/
+/* rows */
+.top-row{
+    display: flex;
+    padding: 20px;
+}
+
+.bottom-row{
+    display: flex;
+    padding: 20px;
+}
+/* rows */
+
+/* selection box */
+.selection{
+   text-align: center;
+   margin-top: 30px;
+   margin-right: 60px;
+   margin-left: 60px;
+   width: 350px;
+   height: 430px;
+   padding: 10px;
+}
+
+.selection:hover {
+    background-color: yellow;
+  }
+/* selection box */
+
+/* selection content */
+.product-images{
+    width: 350px;
+    height: 350px;
+    border: 2px solid black;
+    text-align: left;
+}
+
+.product-description{
+    width: 350px;
+    height: 80px;
+    margin: auto;
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+/* selection content */
+/* menu page */
+
+/*product page: thumbnail, dropdown menu, price,add to cart button*/
+.product-main-content{
+    display: flex;
+}
+#product-thumbnail{
+    width: 700px;
+    height: 700px;
+    border: 2px solid black;
+    margin: 120px;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-left: 160px;
+    
+}
+
+.product-page-description{
+    margin-left: 20px;
+    margin-top: 35px;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    font-size: 37px;
+    letter-spacing: 1px;
+}
+
+.product-description-text{
+    text-align: left; 
+    line-height: 1.5;
+
+}
+
+/* drop down menu */
+.glazing{
+    margin-top: 100px;
+    text-align: left;
+}
+
+.pack-size{
+    margin-top: 70px;
+    text-align: left;
+}
+/* drop down menu */
+
+/* price and button */
+.price{
+    display: flex;
+    margin-left: 215x;
+    width: 600px;
+    height: 80px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.price-text{
+    text-align: left; 
+    margin-top: 28px;
+}
+
+.add{
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+
+}
+
+.add:hover{
+    background-color: yellow;
+}
+/* price and button */
+
+/* cart page: two rows of product, total price, checkout */
+/* cart products */
+.cart-row{
+    display: flex; 
+}
+
+.cart-images{
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 530px;
+    border: 4px solid black;
+    
+}
+
+.cart-description{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 60px;
+    padding: 10px;
+}
+
+.cart-price{
+    text-align: right;
+    font-size: 35px;
+    margin: auto;
+    margin-right: -250px; 
+}
+
+.remove{
+    text-align: left;
+    margin-left: 530px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+/* cart products */
+
+/* check out section */
+hr.checkout{
+    height:5px; width:1000px; border-width:0; color:black; background-color: black; margin-left: 530px; margin-top: 20px;
+}
+/* "total" and the price are in two boxes*/
+.total-price-section{
+    display: flex;
+}
+
+.total-price{
+    margin-left: 730px;
+    margin-top: 50px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.total-price-text{
+    text-align: right;
+    font-size: 35px;
+    margin: auto;
+    margin-right: -250px; 
+    margin-top: 50px;
+}
+
+/* checkout button and hover */
+.checkout-button{
+    width: 200px;
+    height: 50px;
+    margin-left: 1230px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.checkout-button:hover{
+    background-color: yellow;
+}
