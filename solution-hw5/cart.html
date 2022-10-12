@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <meta charset="UTF-8">
+
+  <head>
+    <title>PUI-HW1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="cart.js"></script>
+  </head>
+
+  
+  
+
+  <body>
+    <header>
+      <div class = "header-main-content">
+
+        <div class = "header-thumbnail">
+          <a href="./index.html">
+          <img class = "logo" src="logo/logo-01.svg" alt = "logo">
+          </a>
+        </div>
+
+        <div class = "header-right">
+        
+          <div class = "header-titles">
+
+            <div class = "header-product">
+              <a href="./index.html">
+              PRODUCTS
+              </a>
+            </div>
+            <div class = "header-cart">
+              <a href="./cart.html">
+                CART
+              </a>
+            </div>
+
+          </div>
+
+          <div class = "line">
+          <hr class = "solid">
+          </div>
+
+          <div class="subtitles">
+            Shopping cart  
+
+          </div>
+        </div>
+      </div>
+    </header>
+  
+  
+    <div class = "cart-main-content">
+      <template id="cart-product-template">
+        <div class = "cart-row">
+          <img class = "cart-images" src = "products/original-cinnamon-roll.jpg" alt = "original cinnamon roll">
+          <div class = "cart-description">
+            <div id = "type">
+              Original cinnamon roll
+            </div>
+            <div id = "glazing">
+              Glazing: Keep original
+            </div>
+            <div id = "size">
+              Pack Size: 1
+            </div>
+          </div>
+      
+            <div id = "price">
+              $ 2.49
+            </div>  
+            <div class = "remove">
+              remove
+            </div>
+          </div>
+        
+      </template>
+    </div>
+      
+
+      <hr class = "checkout">
+      
+      <div class = "total-price-section">
+        <div class = "total-price">
+          Total: 
+        </div>
+
+        <div class = "total-price-text">
+          $ 29.94
+        </div>
+      </div>
+
+      <p></p>
+      <button class="checkout-button">
+        Checkout
+      </button>
+    </div>
+  </body>
+</html>
